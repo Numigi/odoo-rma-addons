@@ -1,2 +1,2 @@
-# odoo-template-addons
-Odoo {process} related addons
+# odoo-rma-addons
+Odoo RMA related addons

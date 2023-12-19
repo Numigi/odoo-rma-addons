@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+
+    <record id="view_rma_partner_highest_parent_tree" model="ir.ui.view">
+        <field name="name">rma.partner.highest.parent.tree</field>
+        <field name="model">rma</field>
+        <field name="inherit_id" ref="rma.rma_view_tree" />
+        <field name="arch" type="xml">
+                <xpath expr="//field[@name='partner_id']" position="after">
+                    <field name="partner_highest_parent_id" optional="show"/>
+                </xpath>
+        </field>
+    </record>
+
+</odoo>

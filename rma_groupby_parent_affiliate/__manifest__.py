@@ -10,7 +10,10 @@
     "license": "AGPL-3",
     "category": "RMA",
     "depends": ["rma", "partner_affiliate_extended"],
-    "summary": "Add the possibility to group by parent affiliate on Return Merchandise Authorization (RMA).",
+    "summary": """
+        Add the possibility to group by parent affiliate on
+        Return Merchandise Authorization (RMA).
+    """,
     "data": [
         "views/rma_views.xml",
     ],

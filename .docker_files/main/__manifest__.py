@@ -1,4 +1,4 @@
-# © 2023 - today Numigi (tm) and all its contributors (https://bit.ly/numigiens)
+# © 2024 - today Numigi (tm) and all its contributors (https://bit.ly/numigiens)
 # License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 
 {
@@ -10,6 +10,8 @@
     "license": "LGPL-3",
     "category": "Other",
     "summary": "Install all addons required for testing.",
-    "depends": ["rma_groupby_parent_affiliate"],
+    "depends": [
+        "rma"
+    ],
     "installable": True,
 }
